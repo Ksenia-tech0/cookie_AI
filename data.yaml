@@ -1,0 +1,9 @@
+path: ./
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: close_ad
+  1: upgrade
+  2: bonus

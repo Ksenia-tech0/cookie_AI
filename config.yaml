@@ -1,0 +1,8 @@
+type: yolov8
+name: CookieDetector
+display_name: CookieDetector
+model_path: ./runs/detect/cookie_detector/weights/best.onnx
+nms_threshold: 0.45
+confidence_threshold: 0.25
+classes:
+  - cookie
